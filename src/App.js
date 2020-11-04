@@ -16,7 +16,7 @@ function App() {
         clientId='775740881908-ckb5ts986vj0oirjnt97pbvffkd38kbt.apps.googleusercontent.com'
         buttonText='Login'
         // redirectUri='https://radlogintest.auth.us-east-1.amazoncognito.com'
-        redirectUri='http://localhost:3000'
+        redirectUri='https://master.d2cr7cpf618mgh.amplifyapp.com'
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
         jsSrc='https://apis.google.com/js/api.js'
