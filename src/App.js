@@ -13,16 +13,12 @@ function App() {
       <Signup />
       <Login />
       <GoogleLogin
-        clientId='775740881908-ckb5ts986vj0oirjnt97pbvffkd38kbt.apps.googleusercontent.com'
+        clientId='725426102702-8bg4g2as1lf4itmb3gvl6q58hth9lkjj.apps.googleusercontent.com'
         buttonText='Login'
-        // redirectUri='https://radlogintest.auth.us-east-1.amazoncognito.com'
-        redirectUri='https://master.d2cr7cpf618mgh.amplifyapp.com '
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
-        jsSrc='https://apis.google.com/js/api.js'
         cookiePolicy={'single_host_origin'}
       />
-      <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </div>
   );
 }
